@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github, ExternalLink, FileText, Check } from 'lucide-react'
+import { ArrowUpRight, Github, ExternalLink, FileText, Check, Brain } from 'lucide-react'
 import Section from './Section.jsx'
 import Reveal from './Reveal.jsx'
 import Card from './Card.jsx'
@@ -9,6 +9,7 @@ const linkMeta = {
   github: { label: 'Code', icon: Github },
   live: { label: 'Live demo', icon: ExternalLink },
   paper: { label: 'Paper', icon: FileText },
+  huggingface: { label: 'Hugging Face Model', icon: Brain },
 }
 
 export default function Projects() {
