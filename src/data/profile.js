@@ -184,7 +184,11 @@ export const projects = [
       { value: '~0.92', label: 'fake detection F1' },
     ],
     tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'TensorFlow', 'Hugging Face Transformers', 'XLM-RoBERTa'],
-    links: { github: PLACEHOLDER, paper: PLACEHOLDER }, // TODO: add repo / paper URLs
+    links: {
+      live: 'https://faux-hate-nlp-fsc7.vercel.app/',
+      github: 'https://github.com/daksh2024bcse073-code/faux-hate-nlp',
+      huggingface: 'https://huggingface.co/Daksh3012/fauxhate-xlm-roberta/tree/main',
+    },
   },
   {
     title: 'SmartInspect-AI',
